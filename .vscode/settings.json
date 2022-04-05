@@ -1,7 +1,7 @@
 {
   "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
   "workbench.iconTheme": "vscode-icons",
-  "editor.rulers": [80, 120],
+  "editor.rulers": [100],
   "editor.renderWhitespace": "all",
   "editor.fontFamily": "'JetBrains Mono', 'Fira Code Retina', Consolas, monospace",
   "editor.tabSize": 2,
@@ -15,5 +15,7 @@
     
   },
   "prettier.singleQuote": true,
-  "vsicons.dontShowNewVersionMessage": true
+  "prettier.printWidth": 100,
+  "vsicons.dontShowNewVersionMessage": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
 }
