@@ -1,0 +1,25 @@
+image:
+  file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - wakatime.vscode-wakatime
+    - johnpapa.winteriscoming
+    - vscode-icons-team.vscode-icons
+    - esbenp.prettier-vscode
+    - naumovs.color-highlight
+    - dsznajder.es7-react-js-snippets
+    - asciidoctor.asciidoctor-vscode
+    - jpoissonnier.vscode-styled-components
+
+tasks:
+  - name: NPM Install
+    init: npm i
+  - name: Initialize React App
+    init: NPM Start
+    command: npm start
+
+ports:
+  - port: 3000 # react app
+    visibility: public
+    onOpen: open-preview

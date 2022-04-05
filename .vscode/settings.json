@@ -1,0 +1,19 @@
+{
+  "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.rulers": [80, 120],
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "'JetBrains Mono', 'Fira Code Retina', Consolas, monospace",
+  "editor.tabSize": 2,
+  "editor.fontLigatures": false,
+  "editor.formatOnSave": true,
+  "editor.parameterHints.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+    
+  },
+  "prettier.singleQuote": true,
+  "vsicons.dontShowNewVersionMessage": true
+}
