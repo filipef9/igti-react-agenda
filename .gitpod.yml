@@ -13,10 +13,8 @@ vscode:
     - jpoissonnier.vscode-styled-components
 
 tasks:
-  - name: NPM Install
-    init: npm i
   - name: Initialize React App
-    init: NPM Start
+    init: npm i
     command: npm start
 
 ports:
