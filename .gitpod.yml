@@ -14,21 +14,18 @@ vscode:
 
 tasks:
 - name: Configure API Host ENV URL
-  command: echo "\nREACT_APP_API_HOST=$(/usr/bin/gp url 8080)" >> /workspace/igti-react-agenda/frontend/.env
+  command: echo -e "\nREACT_APP_API_HOST=$(/usr/bin/gp url 8080)" >> /workspace/igti-react-agenda/frontend/.env
 - name: 'Backend: start'
-  init: |
-    cd backend
-    npm i
   command: |
     cd backend
+    npm i
     npm start
 - name: 'Frontend: start'
-  init: |
-    cd frontend
-    npm i
   command: |
     cd frontend
+    npm i
     npm start
+  openMode: split-right
 
 ports:
   - port: 8080 # backend
