@@ -1,4 +1,5 @@
 import { getEventsEndpoint } from "./backend";
+import CalendarScreen from "./CalendarScreen";
 
 const App = () => {
   getEventsEndpoint()
@@ -6,11 +7,7 @@ const App = () => {
       events.forEach(event => console.log(event))
     });
 
-  return (
-    <div className="App">
-      Olá!
-    </div>
-  );
+  return <CalendarScreen />
 }
 
 export default App;
