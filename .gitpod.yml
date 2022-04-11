@@ -14,7 +14,7 @@ vscode:
 
 tasks:
 - name: Configure API Host ENV URL
-  command: echo "REACT_APP_API_HOST=$(/usr/bin/gp url 8080)" >> /workspace/igti-react-agenda/frontend/.env
+  command: echo "\nREACT_APP_API_HOST=$(/usr/bin/gp url 8080)" >> /workspace/igti-react-agenda/frontend/.env
 - name: 'Backend: start'
   init: |
     cd backend
